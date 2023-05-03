@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+         <nav class="nav container">
+           <a href="./index.html" class="nav_logo">
+           <img src="./assets/images/logo.svg" alt="" class="nav__logo-image">
+           </a>
+           <div class="nav__overlay"></div>
+           <div class="nav__menu">
+              <form action="" class="nav__search">
+                <span class="nav__search-icon">
+                    <i class="ri-search-line"></i>
+                </span>
+                <input type="text" placeholder="Search" class="nav__search-input">
+              </form>
+              <ul class="nav__list">
+                <li class="nav__list-item">
+                    <a href="#" class="nav__list-link">Explore</a>
+                </li>
+                <li class="nav__list-item">
+                    <a href="#" class="nav__list-link">Marketplace</a>
+                </li>
+                <li class="nav__list-item">
+                    <a href="#" class="nav__list-link">Community</a>
+                </li>
+              </ul>
+              <a href="#" class="button button--dark nav_button">Connect Wallet</a>
+              <button type="button" data-toggle="close" class="button button--action nav__close">
+                <i class="ri-close-line"></i>
+              </button>
+           </div>
+           <button type="button" data-toggle="open" class="button button--action nav__open">
+            <i class="ri-menu-line"></i>
+          </button>
+         </nav>
+    </header>
+
+    <!-- Main  -->
+    <main>
+        <!-- showcase -->
+        <section class="showcase">
+            <div class="showcase__container row container">
+                <div class="showcase__text-group">
+                    <h1 class="showcase__title title title--main">
+                        Explore Legendary Art And NFT's.
+                    </h1>
+                    <p class="showcase__paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nulla aliquid? Quam perferendis quod cupiditate ut voluptatem alias optio ad ea, nostrum sit nist.
+                    </p>
+                    <a href="#" class="button button--normalbutton--pink showcase-button">Create NFT</a>
+                    <div class="showcase-stats">
+                        <h2>
+                            <span class="showcase__stats-stat showcase__stats-stat-count">27K</span>
+                            <span class="showcase__stats-stat showcase__stats-stat-category">Artworks</span>
+                        </h2>
+                        <h2>
+                            <span class="showcase__stats-stat showcase__stats-stat-count">10K</span>
+                            <span class="showcase__stats-stat showcase__stats-stat-category">Artists</span>
+                        </h2>
+                        <h2>
+                            <span class="showcase__stats-stat showcase__stats-stat-count">19K</span>
+                            <span class="showcase__stats-stat showcase__stats-stat-category">Auctions</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="showcase__image-group">
+                    <picture>
+                        <source media="(min-width: 64em)" srcset="./assets/images/showcase_image_large.png">
+                        <img src="./assets//images/showcase_image_large.png" alt="">
+                    </picture>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
